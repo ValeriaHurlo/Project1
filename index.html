@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Краб-система</title>
+    <link rel="stylesheet" href="css/my-reset.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Noto+Sans&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a class="header__logo" href="#">
+                    <img class="logo" src="images/Logo.svg" alt="лого">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#catalog">Каталог</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#prise">Расчет стоимости</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#partner">Партнеры</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#client">Отзывы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__contact contact">
+                    <address class="header__location location"> Москва</address>
+                    <a class="header__phone phone" href="tel:+89853447646">
+                        8-985-344-76-46
+                    </a>
+                </div>
+                <button class="menu__btn">
+                    <img class="menu__btn--burger" src="images/burger__menu.svg" alt="меню">
+                </button>
+            </div>
+        </div>
+        <div class="header__content" style="background-image: url(images/header-banner.png);">
+            <div class="container">
+                <h1 class="header__title">
+                    Краб-система
+                    <span class="header__text">
+                        Для быстровозводимых каркасных конструкций
+                    </span>
+                </h1>
+                <button class="header__btn btn" type="submit">
+                    Получить консультацию
+                </button>
+                <div class="header__icon">
+                    <h2 class="icon__title title">
+                        Оставте свой номер
+                    </h2>
+                    <p class="icon__text">
+                        мы Вам перезвоним
+                    </p>
+                    <form class="form__icon form">
+                        <input class="form__icon--tel" type="tel" placeholder="Номер телефона">
+                        <button class="form__btn" type="submit">
+                            Получить консультацию
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="advantage">
+            <div class="container">
+                <h2 class="advantage__title title">
+                    Преимущества системы
+                </h2>
+                <ul class="advantage__wrapper">
+                    <li class="advantage__block advantage__block--hand">
+                        <h3 class="advantage__heading heading">
+                            Высокая прочность, жёсткость и надёжность
+                        </h3>
+                        <div class="advantage__text">
+                            <p>
+                                По прочности соединение с помощью
+                                краб-системы ничем не уступает сварке
+                            </p>
+                        </div>
+                    </li>
+                    <li class="advantage__block advantage__block--pig">
+                        <h3 class="advantage__heading heading">
+                            Низкая стоимость
+                        </h3>
+                        <div class="advantage__text">
+                            <p>
+                                Цена конструкции относительна низка, так как:
+                                <ul>
+                                    <li> Вам не нужно использовать сварочный аппарат;</li>
+                                    <li> работу Вы можете сделать своими руками </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="advantage__block advantage__block--cycle">
+                        <h3 class="advantage__heading heading">
+                            Возможность многоразового
+                            использования
+                        </h3>
+                        <div class="advantage__text">
+                            <p>
+                                Система соединения позволяет перестроить
+                                конструкцию – уменьшить, увеличить размеры
+                            </p>
+                        </div>
+                    </li>
+                    <li class="advantage__block advantage__block--montage">
+                        <h3 class="advantage__heading heading">
+                            Простота монтажа
+                        </h3>
+                        <div class="advantage__text">
+                            <p>
+                                Для выполнения работ Вам не требуется
+                                специальных знаний, Краб-система
+                                закрепляется при помощи болтов и гаек
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="always" id="catalog">
+            <div class="container">
+                <h2 class="always__title title">
+                    Всегда в наличии
+                </h2>
+                <div class="always__wrapper">
+                    <div class="always__inner">
+                        <div class="always__item">
+                            <img class="always__img" src="images/T-crab1.png" alt="Т-образная">
+                            <p class="always__text">Т-образная краб-система 20х20</p>
+                            <form class="always__form">
+                                <label class="always__label">
+                                    <span class="always__cost">20 руб/комп</span>
+                                    <input class="always__input" type="number" min="0" placeholder="0">
+                                    комп.
+                                </label>
+                                <button class="always__button" type="submit">
+                                    Заказать
+                                </button>
+                            </form>
+                        </div>
+                        <div class="always__item">
+                            <img class="always__img" src="images/T-crab2.png" alt="X-образная">
+                            <p class="always__text">Х-образная краб-система 20х20</p>
+                            <form class="always__form">
+                                <label class="always__label">
+                                    <span class="always__cost">20 руб/комп</span>
+                                    <input class="always__input" type="number" min="0" placeholder="0">
+                                    комп.
+                                </label>
+                                <button class="always__button" type="submit">
+                                    Заказать
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="always__inner">
+                        <div class="always__item">
+                            <img class="always__img" src="images/T-crab3.png" alt="Т-образная">
+                            <p class="always__text">Т-образная краб-система 25х25</p>
+                            <form class="always__form">
+                                <label class="always__label">
+                                    <span class="always__cost">25 руб/комп</span>
+                                    <input class="always__input" type="number" min="0" placeholder="0">
+                                    комп.
+                                </label>
+                                <button class="always__button" type="submit">
+                                    Заказать
+                                </button>
+                            </form>
+                        </div>
+                        <div class="always__item">
+                            <img class="always__img" src="images/T-crab4.png" alt="X-образная">
+                            <p class="always__text">Х-образная краб-система 25х25</p>
+                            <form class="always__form">
+                                <label class="always__label">
+                                    <span class="always__cost">25 руб/комп</span>
+                                    <input class="always__input" type="number" min="0" placeholder="0">
+                                    комп.
+                                </label>
+                                <button class="always__button" type="submit">
+                                    Заказать
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="plus">
+            <div class="container">
+                <h2 class="plus__title title">
+                    Почему мы?
+                </h2>
+                <ul class="plus__wrapper">
+                    <li class="plus__block plus__block--factory">
+                        <h3 class="plus__heading heading">
+                            Собственное производство
+                        </h3>
+                        <div class="plus__text">
+                            <p>
+                                Мы изготавливаем элементы краб-системы на собственном производстве в Вологде, уделяя
+                                особое внимание качеству.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="plus__block plus__block--truck">
+                        <h3 class="plus__heading heading">
+                            Доставка по всей России
+                        </h3>
+                        <div class="plus__text">
+                            <p>
+                                Мы осуществляем
+                                доставку нашей продукции
+                                по всей России.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="plus__block plus__block--rub">
+                        <h3 class="plus__heading heading">
+                            Доступные цены
+                        </h3>
+                        <div class="plus__text">
+                            <p>
+                                Так как мы являемся производителем,
+                                мы предлагаем нашу продукцию
+                                без лишних наценок.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="plus__block plus__block--like">
+                        <h3 class="plus__heading heading">
+                            Гарантия качества
+                        </h3>
+                        <div class="plus__text">
+                            <p>
+                                Мы уделяем особое внимание качеству
+                                нашей продукции и дорожим нашими
+                                клиентами.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="manufacture" style="background-image: url('/images/manufacture_bg.png');">
+            <div class="container">
+                <h2 class="video__title title">
+                    Наше производство
+                </h2>
+                <video class="video" width="1280" height="720" controls="controls" poster="images/video_bg.png">
+                    <source src="/images/videoplayback.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                </video>
+            </div>
+        </section>
+        <section class="price" id="prise" style="background-image: url('/images/background_price.png');">
+            <div class="container">
+                <div class="price__wrapper">
+                    <h2 class="price__title title">
+                        Оставить заявку
+                    </h2>
+                    <p class="price__text">
+                        На расчет стоимости
+                    </p>
+                    <form class="form">
+                        <input class="form__tel" type="tel" placeholder="Номер телефона">
+                        <input class="form__email" type="email" placeholder="E-mail">
+                        <button class="form__btn" type="submit">
+                            Заказать расчёт цены
+                        </button>
+                        <div class="form__checkbox">
+                            <label class="checkbox">
+                                <input class="checkbox__input" type="checkbox">
+                                <span class="checkbox__style"></span>
+                                Соглашаюсь с <a>условиями передачи данных</a>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="partner" id="partner">
+            <div class="container">
+                <h2 class="partner__title title">Наши партнеры</h2>
+                <div class="partner__wrapper">
+                    <a class="partner__inner" href="https://www.severstal.com/">
+                        <img class="partner__logo" src="images/sever_logo.svg" alt="Северсталь">
+                    </a>
+                    <a class="partner__inner" href="https://zavodteplic.ru/">
+                        <img class="partner__logo" src="images/zavodteplic.svg" alt="Завод теплиц">
+                    </a>
+                    <a class="partner__inner" href="https://lva.gf1.com/ru/">
+                        <img class="partner__logo" src="images/logo_gf1.svg" alt="GF1.com">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="client" id="client" style="background-image: url('/images/background_client.png');">
+            <div class="container">
+                <h2 class="client__title title">
+                    Отзывы нашых клиентов
+                </h2>
+                <ul class="client__wrapper">
+                    <li class="client__inner client__inner--img1">
+                        <h3 class="client__name heading">
+                            Михаил Викторович
+                        </h3>
+                        <p class="client__text">
+                            Kрaб-сиcтeмa в тeчение нескoльких лeт заcлужилa выcoкую репутацию cpeди дaчникoв и
+                            пpоизводителей тeплиц и дpугих малыx дачных сoopужений. Прoстaя и быстpая сбоpка, oтcутствие
+                            свapки, оцинкованный кpепеж пoзволяют cоздaвать тeплицы, душeвые, веpcтaки, стeллaжи из
+                            крепежа за минимальнoе время.
+                        </p>
+                    </li>
+                    <li class="client__inner client__inner--img2">
+                        <h3 class="client__name heading">
+                            Светлана Альбертовна
+                        </h3>
+                        <p class="client__text">
+                            Kрaб-сиcтeмa в тeчение нескoльких лeт заcлужилa выcoкую репутацию cpeди дaчникoв и
+                            пpоизводителей тeплиц и дpугих малыx дачных сoopужений. Прoстaя и быстpая сбоpка, oтcутствие
+                            свapки, оцинкованный кpепеж пoзволяют cоздaвать тeплицы, душeвые, веpcтaки, стeллaжи из
+                            крепежа за минимальнoе время.
+                        </p>
+                    </li>
+                    <li class="client__inner client__inner--img3">
+                        <h3 class="client__name heading">
+                            Андрей Олегович
+                        </h3>
+                        <p class="client__text">
+                            Kрaб-сиcтeмa в тeчение нескoльких лeт заcлужилa выcoкую репутацию cpeди дaчникoв и
+                            пpоизводителей тeплиц и дpугих малыx дачных сoopужений. Прoстaя и быстpая сбоpка, oтcутствие
+                            свapки, оцинкованный кpепеж пoзволяют cоздaвать тeплицы, душeвые, веpcтaки, стeллaжи из
+                            крепежа за минимальнoе время.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="location">
+            <div class="container">
+                <h2 class="location__title title">Мы на карте</h2>
+            </div>
+            <div id="map" style="width: 100%; height: 576px"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a class="footer__logo" href="#">
+                    <img src="images/Logo.svg" alt="логотип">
+                </a>
+                <div class="footer__contact contact">
+                    <address class="footer__location location"> Москва, ул. Лениниа, д. 25</address>
+                    <a class="footer__phone phone" href="tel:+89853447646">
+                        8-985-344-76-46
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+        </script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
